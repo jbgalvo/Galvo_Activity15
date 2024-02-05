@@ -7,16 +7,12 @@
   $isSingle = true ? 'Yes' : 'No'; // Boolean
 
   // Print the values of these variables using echo or print.
-  echo "<b>Task 2: Variable Declaration and Data Types</b>";
-  echo "<br /><br />";
-  echo "My name is {$fullname}, {$age} years old.";
-  echo "<br />";
-  print "Are you single? {$isSingle}";
-  echo "<br /><br />";
+  echo "<b>Task 2: Variable Declaration and Data Types</b><br /><br />";
+  echo "My name is {$fullname}, {$age} years old.<br />";
+  print "Are you single? {$isSingle} <br /><br />";
 
   //Task 3: Conditionals
-  echo "<b>Task 3: Conditionals</b>";
-  echo "<br /><br />";
+  echo "<b>Task 3: Conditionals</b><br /><br />";
   if($age > 10) {
     echo "Your age of {$age} is greater than 10.";
   } else if($age == 10) {
@@ -25,5 +21,21 @@
     echo "Your age of {$age} is lower than 10.";
   }
   echo "<br /><br />";
+
+  //Task 4: Loops
+  echo "<b>Task 4: Loops</b><br /><br />";
+  echo "<b>For loop</b> <br />";
+  for($counter = 1; $counter<6; $counter++) {
+    echo "{$counter} <br />";
+  }
+  echo "<br /><b>While loop</b><br />";
+  $num = 5;
+  while($num >= 1){
+    echo "{$num} <br />";
+    $num--;
+  }
+
+
+  
 
 ?>
