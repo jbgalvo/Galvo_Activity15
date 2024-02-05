@@ -35,6 +35,20 @@
     $num--;
   }
 
+  //Task 5: Arrays
+  echo "<br /><b>Task 5: Arrays</b><br /><br />";
+  echo "<b>Indexed Array</b> <br />";
+  $fruits = array('Apple', 'Mango', 'Watermelon');
+  var_dump($fruits);
+
+  echo "<br /><br /><b>Associative  Array</b> <br />";
+  $person = array(
+    "name" => "Jb Galvo",
+    "age" => 24,
+    "city" => "Naga City"
+  );
+  var_dump($person);
+
 
   
 
