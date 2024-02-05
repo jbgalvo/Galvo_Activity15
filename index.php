@@ -49,7 +49,14 @@
   );
   var_dump($person);
 
+  //Task 6: Functions
+  echo "<br /><br /><b>Task 6: Functions</b><br /><br />";
 
+  function sum($num1, $num2) {
+    return $num1 + $num2;
+  }
+
+  echo sum(5, 5) . "<br />" . sum(10, 15) . "<br />" . sum(25, 15);
   
 
 ?>
